@@ -2,7 +2,7 @@ let lotion = require('lotion');
 let genesis = require.resolve('./genesis.json');
 let lotionPort = 3000;
 let config = require('./config.js')
-let dev = process.env.DEV || false;
+let dev = process.env.DEV || true;
 
 async function main() {
     /**
